@@ -90,7 +90,7 @@ window.addEventListener('scroll', listenForScroll = () =>{
            sectionBounding.right <= (windowWidth || fallbackWidth) &&
            sectionBounding.bottom >= (windowheight || fallbackHeight)){
             section.classList.add('your-active-class');
-            section.style.cssText = 'border: 1px solid white; box-shadow: 0.5px 14px 14px 10px grey'
+            section.style.cssText = 'border: 1px solid white; box-shadow: 0.5px 14px 14px 10px grey; background-color: grey;'
             console.log(section)
         }
         else{
